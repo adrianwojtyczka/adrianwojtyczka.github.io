@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url('/assets/images/backgroundImage.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.cover {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.cover span {
+    color: #fff;
+    padding: 18px;
+    margin-left: 10%;
+    font-size: 32px;
+}
