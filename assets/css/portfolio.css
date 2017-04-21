@@ -2,9 +2,37 @@ body, html {
     height: 100%;
 }
 
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    margin: 0;
+}
+
+.text-font-size-20 {
+    font-size: 20px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+a.navbar-brand {
+    font-size: 24px;
+}
+
+ul.navbar-nav {
+    font-size: 18px;
+}
+
 .parallax { 
     /* The image used */
-    background-image: url('/assets/images/backgroundImage.jpg');
+    background-image: url('https://dzienciol13.github.io/assets/images/backgroundImage.jpg');
 
     /* Full height */
     height: 100%; 
@@ -23,14 +51,95 @@ body, html {
 }
 
 .cover {
-    position: absolute;
-    top: 40%;
-    width: 100%;
+    position: relative;
+    top: 16%;
+    color: #fff;
 }
 
-.cover span {
+.profile-image {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+}
+
+section {
+    padding: 20px 20% 30px;
+}
+
+section>h2 {
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #999;
+}
+
+.portfolio-image {
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.portfolio-link {
+    /*border: 1px solid #00f;*/
+    padding: 4px;
+    font-size: 20px;
+}
+
+#skills, #social {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+#social {
+    background-color: #0e98e0;
     color: #fff;
-    padding: 18px;
-    margin-left: 10%;
-    font-size: 32px;
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+#social>ul {
+    padding: 0;
+    margin: 0;
+}
+
+#social>ul>li {
+    display: inline;
+}
+
+.social-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all .2s ease-in-out;
+}
+
+#social a {
+    background-color: inherit;
+    color: inherit;
+}
+
+#social a:hover {
+    background-color: #fff;
+    color: #0e98e0;
+}
+
+#social a>i {
+    line-height: 46px !important;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.copyright {
+    font-size: 16px;
 }
