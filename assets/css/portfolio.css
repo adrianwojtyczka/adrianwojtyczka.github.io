@@ -8,6 +8,7 @@ h1 {
 
 h2 {
     font-size: 40px;
+    text-align: center;
 }
 
 p {
@@ -16,6 +17,10 @@ p {
 
 .text-font-size-20 {
     font-size: 20px;
+}
+
+.padding-bottom-20 {
+    padding-bottom: 20px;
 }
 
 .navbar {
@@ -86,7 +91,6 @@ section>h2 {
 
 #skills, #social {
     background-color: #f0f0f0;
-    text-align: center;
 }
 
 #social {
